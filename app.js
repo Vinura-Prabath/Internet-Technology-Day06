@@ -82,12 +82,12 @@ function changeHeading(){
 
 let number = 0;
 function changeHeadingIncrement() {
-    heading.innerText = "Hello,Vinura"+number++;
+    heading.innerText = "Hello,Vinura"+ (++number);
     console.log("Clicked");
     
 }
 function changeHeadingDecrement() {
-    heading.innerText = "Hello,Vinura"+number--;
+    heading.innerText = "Hello,Vinura"+(--number);
     console.log("Clicked");
     
 }
