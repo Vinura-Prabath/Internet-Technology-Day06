@@ -72,3 +72,5 @@ console.log(document.title);
 let heading = document.getElementById("Heading");
 
 console.log(heading);
+
+heading.innerText = "Hello, Vinura";
