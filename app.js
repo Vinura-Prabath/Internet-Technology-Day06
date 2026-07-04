@@ -67,28 +67,35 @@
 
 // document.write("<h1>Hello</h1>");
 
-console.log(document.title);
+// console.log(document.title);
 
-let heading = document.getElementById("Heading");
+// let heading = document.getElementById("Heading");
 
-// console.log(heading);
+// // console.log(heading);
 
-// heading.innerText = "Hello, Vinura";
+// // heading.innerText = "Hello, Vinura";
 
-function changeHeading(){
-    heading.innerText = "Hello, Vinura";
-    console.log("Clicked");
-}
+// function changeHeading(){
+//     heading.innerText = "Hello, Vinura";
+//     console.log("Clicked");
+// }
 
-let number = 0;
-function changeHeadingIncrement() {
-    heading.innerText = "Hello,Vinura"+ (++number);
-    console.log("Clicked");
+// let number = 0;
+// function changeHeadingIncrement() {
+//     heading.innerText = "Hello,Vinura"+ (++number);
+//     console.log("Clicked");
     
-}
-function changeHeadingDecrement() {
-    heading.innerText = "Hello,Vinura"+(--number);
-    console.log("Clicked");
+// }
+// function changeHeadingDecrement() {
+//     heading.innerText = "Hello,Vinura"+(--number);
+//     console.log("Clicked");
     
-}
+// }
 
+function changeHeading() {
+    let inputText = document.getElementById("inputText");
+
+    console.log(inputText.value);
+    let heading = document.getElementById("Heading");
+    heading.innerText = inputText.value;
+}
