@@ -71,6 +71,24 @@ console.log(document.title);
 
 let heading = document.getElementById("Heading");
 
-console.log(heading);
+// console.log(heading);
 
-heading.innerText = "Hello, Vinura";
+// heading.innerText = "Hello, Vinura";
+
+function changeHeading(){
+    heading.innerText = "Hello, Vinura";
+    console.log("Clicked");
+}
+
+let number = 0;
+function changeHeadingIncrement() {
+    heading.innerText = "Hello,Vinura"+number++;
+    console.log("Clicked");
+    
+}
+function changeHeadingDecrement() {
+    heading.innerText = "Hello,Vinura"+number--;
+    console.log("Clicked");
+    
+}
+
