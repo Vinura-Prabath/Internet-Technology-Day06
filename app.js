@@ -23,4 +23,6 @@ let customer2={
     address: "Kandy"
 };
 
-console.log(customer2);
+console.log(customer2.name);
+console.log(customer2.age);
+console.log(customer2.address);
