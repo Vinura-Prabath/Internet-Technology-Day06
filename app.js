@@ -36,3 +36,5 @@ console.log(customer2.address);
 console.log(customer2.salary);
 console.log(customer2.items);
 console.log(customer2.father);
+console.log(customer2.father.name);
+console.log(customer2.items[2]);
